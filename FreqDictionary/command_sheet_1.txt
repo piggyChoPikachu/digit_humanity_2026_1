@@ -1,0 +1,22 @@
+awk 'BEGIN {OFS=","} {$1=$1; print}' dataset.txt > dataset.csv
+
+
+
+
+[:alnum:]äÄöÖõÕüÜšŠžŽ
+
+
+
+
+
+
+
+
+tr ‐cs [:alnum:]äÄöÖõÕüÜšŠžŽ '\n'
+
+
+C:\DigitalHuman\github\digit_humanity_2026_1\FreqDictionary
+
+cd /mnt/c/DigitalHuman/github/digit_humanity_2026_1/FreqDictionary
+
+	cut -d ',' -f 2 lemmas_utf8.csv|sort|uniq -c
